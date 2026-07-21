@@ -1,2 +1,3 @@
 # genai-lab
-Generative AI - experiments and projects 
+This repository has my experiments and projects with Generative AI .
+

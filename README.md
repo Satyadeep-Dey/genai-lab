@@ -2,6 +2,8 @@
 
 Hands-on experiments and projects for learning and exploring **Generative AI**.
 
+> **Environment:** The notebooks in this repository are designed to run in **Google Colab** and may not work as-is in a local Jupyter/Python environment.
+
 The repository follows a practical progression from basic LLM/API usage to **RAG, embeddings, vector databases, MCP, AI agents, semantic search, hybrid search, and natural-language query planning**.
 
 ## Topics
@@ -31,8 +33,7 @@ genai-lab/
 │   └── Sample documents used by the RAG experiments
 │
 ├── file_utils_colab.py
-│   └── Reusable Google Colab utilities for reading and writing
-│       text files stored in Google Drive
+│   └── Utilities for working with files in Google Colab
 │
 └── README.md
 ```
@@ -53,10 +54,15 @@ It includes utilities to:
 * Write text files to Google Drive
 * Create folders when required
 
-The utility is intended specifically for **Google Colab** environments.
+## Running the Notebooks
+
+1. Open a notebook in GitHub.
+2. Select **Open in Colab**.
+3. Follow the setup instructions in the notebook.
+4. Provide the required API keys or credentials when prompted.
+
+The notebooks and supporting utilities assume a **Google Colab environment**, including its package installation and Google Drive integration.
 
 ## Purpose
 
-This is a working lab rather than a production framework. The notebooks are intended to capture experiments, implementations, and learning as I explore different GenAI concepts and patterns.
-
-
+This is a working lab rather than a production framework. The notebooks capture hands-on experiments, implementations, and learning across different **Generative AI concepts and application patterns**.
